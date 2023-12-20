@@ -1,0 +1,2464 @@
+Xsession: X session started for jean at dom 12 nov 2023 15:44:37 -03
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/jean/.Xauthority
+localuser:jean being added to access control list
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=jean
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting HOME=/home/jean
+dbus-update-activation-environment: setting DESKTOP_SESSION=mate
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting LC_CTYPE=en_US.UTF-8
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting LOGNAME=jean
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+dbus-update-activation-environment: setting GTK3_MODULES=xapp-gtk3-module
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting LANG=pt_BR.UTF-8
+dbus-update-activation-environment: setting XDG_CURRENT_DESKTOP=MATE
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=mate
+dbus-update-activation-environment: setting XAUTHORITY=/home/jean/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/jean
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting GDMSESSION=mate
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/jean
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/mate:/home/jean/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+mate-session-check-accelerated: GL Helper exited with code 512
+libEGL warning: DRI2: failed to authenticate
+mate-session-check-accelerated: GLES Helper exited with code 512
+mate-session[866]: WARNING: Unable to find provider '' of required component 'dock'
+discover_other_daemon: 1GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Aviso do gerenciador de janelas: Log level 128: unsetenv() is not thread-safe and should not be used after threads are created
+discover_other_daemon: 1GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+discover_other_daemon: 1GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+discover_other_daemon: 1GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+
+(caja:1025): Gtk-WARNING **: 15:44:42.398: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
+
+(mate-power-manager:1047): PowerManager-WARNING **: 15:44:42.406: Failed to get session for pid 1047: The name org.freedesktop.ConsoleKit was not provided by any .service files
+
+(mate-power-manager:1047): PowerManager-WARNING **: 15:44:43.089: could not map keysym 1008ffa8 to keycode
+blueman-applet 15.44.46 WARNING  PluginManager:151 __load_plugin: Not loading PPPSupport because its conflict has higher priority
+blueman-applet 15.44.46 WARNING  PluginManager:151 __load_plugin: Not loading DhcpClient because its conflict has higher priority
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.800: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.801: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.801: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.801: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.801: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.801: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.801: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.801: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.802: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.802: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.802: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.802: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.973: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.973: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.973: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.973: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.973: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.973: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.973: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.973: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.991: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.991: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.991: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.991: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.993: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.993: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.993: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.993: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.995: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.995: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.995: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:46.995: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:47.782: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:47.782: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:47.782: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:47.782: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:47.852: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:47.852: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:48.289: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:48.289: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:48.289: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:48.289: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:48.289: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:48.289: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:48.289: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:44:48.289: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+blueman-applet 15.45.00 WARNING  DiscvManager:119 update_menuitems: warning: Adapter is None
+Aviso do gerenciador de janelas: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x1200007 (Autenticar)
+Aviso do gerenciador de janelas: meta_window_activate called by a pager with a 0 timestamp; the pager needs to be fixed.
+Could not parse arguments: Não foi possível abrir a tela: 
+
+(package-update-indicator:1050): package-update-indicator-WARNING **: 15:47:56.478: failed to check for updates: E: Could not get lock /var/lib/apt/lists/lock. It is held by process 1493 (apt)
+W: Be aware that removing the lock file is not a solution and may break your system.
+E: Impossível criar acesso exclusivo ao directório /var/lib/apt/lists/
+
+
+(package-update-indicator:1050): package-update-indicator-WARNING **: 15:47:56.478: failed to get transaction results: E: Could not get lock /var/lib/apt/lists/lock. It is held by process 1493 (apt)
+W: Be aware that removing the lock file is not a solution and may break your system.
+E: Impossível criar acesso exclusivo ao directório /var/lib/apt/lists/
+
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:50.368: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:50.368: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:50.368: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:50.368: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.398: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.398: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.398: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.398: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.399: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.399: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.399: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.399: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.399: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.400: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.400: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.400: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.411: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.412: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.412: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.412: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.483: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:51:51.484: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+Aviso do gerenciador de janelas: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x2e00049 (Centro de )
+Aviso do gerenciador de janelas: meta_window_activate called by a pager with a 0 timestamp; the pager needs to be fixed.
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.070: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.071: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.071: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.071: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.072: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.072: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.072: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.072: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.072: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.072: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.072: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.072: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.076: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.076: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.076: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.076: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.080: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.081: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.082: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.083: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.083: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.083: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.083: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.083: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.083: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:56:26.083: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.902: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.902: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.902: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.902: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.906: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.907: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.907: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.907: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.907: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.907: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.907: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.907: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.907: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.907: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.907: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.907: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.907: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.907: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.907: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.907: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.907: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.907: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.907: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.907: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.907: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.908: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:28.909: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.328: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.328: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.329: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.329: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.329: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.329: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.329: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.329: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.329: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.329: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.329: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.330: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.330: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.330: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.330: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.330: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.330: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.330: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.330: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.330: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.330: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.331: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.331: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.331: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.331: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.331: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.331: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.331: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.331: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.331: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.331: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.331: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.332: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.332: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.332: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.332: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.332: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.332: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.332: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.332: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.333: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.333: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.333: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.333: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.333: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.333: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.333: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.333: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.333: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.334: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.334: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.334: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.334: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.334: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.334: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.334: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.334: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.334: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.335: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.335: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.335: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.335: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.335: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.335: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.335: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.335: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.335: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.335: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.335: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.335: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.336: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.336: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.336: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.336: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.336: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.336: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.336: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.336: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.336: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.336: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.336: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.336: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.337: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.337: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.337: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.337: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.337: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.337: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.337: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.337: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.337: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.337: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.568: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.568: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.568: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:33.568: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.134: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.135: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.135: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.135: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.606: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.606: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.606: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.606: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+** (caja:1025): CRITICAL **: 15:58:36.757: caja_bookmark_get_location: assertion 'CAJA_IS_BOOKMARK (bookmark)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.757: g_file_get_uri: assertion 'G_IS_FILE (file)' failed
+
+(caja:1025): GLib-GObject-CRITICAL **: 15:58:36.757: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.789: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.789: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.789: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.789: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.791: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.791: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.791: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.791: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.791: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.791: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.791: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.791: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.791: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.792: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.792: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.792: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.792: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.792: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.792: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.792: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.792: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.792: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.792: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.792: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.792: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.792: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.793: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.793: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.793: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.793: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.793: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.793: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.793: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.793: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.793: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.793: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.793: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.793: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.793: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.794: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.794: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.794: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.794: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.794: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.794: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.794: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.794: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.794: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.794: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.794: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.795: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.795: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.795: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.795: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.795: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.795: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.795: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.795: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.795: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.795: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.824: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.824: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.824: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.824: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.824: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.824: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.824: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.824: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.824: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.824: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.824: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.825: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.825: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.825: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.825: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.825: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.825: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.825: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.825: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.825: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.825: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.825: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.825: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.825: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.826: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.826: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.826: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.826: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.826: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.826: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.826: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.826: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.826: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.826: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.826: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.826: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.826: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.827: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.827: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.827: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.827: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.827: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.827: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.827: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.827: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.827: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.827: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.827: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.827: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.827: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.828: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.828: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.828: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.828: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.828: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.828: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.828: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.828: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.828: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.828: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.828: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.828: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.829: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.829: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.829: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.829: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.829: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.829: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.829: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.829: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.829: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.829: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.829: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.829: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.829: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.829: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.830: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.830: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.830: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.830: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.830: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.830: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.830: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.830: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.830: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.830: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.830: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.830: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.831: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.831: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.831: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:36.831: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:38.946: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:38.946: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:38.947: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:38.947: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.554: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.554: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.554: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.554: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+** (caja:1025): CRITICAL **: 15:58:40.601: caja_bookmark_get_location: assertion 'CAJA_IS_BOOKMARK (bookmark)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.602: g_file_get_uri: assertion 'G_IS_FILE (file)' failed
+
+(caja:1025): GLib-GObject-CRITICAL **: 15:58:40.602: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.615: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.615: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.615: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.615: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.616: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.616: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.616: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.616: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.616: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.616: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.616: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.616: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.626: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.626: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.627: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.627: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.627: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.627: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.627: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.627: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.627: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.627: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.627: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.627: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.627: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.627: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.627: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.628: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.628: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.628: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.628: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.628: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.628: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.628: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.628: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.628: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.628: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.628: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.628: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.628: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.629: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.629: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.629: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.629: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.629: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.629: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.629: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.629: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.629: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.629: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.629: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.629: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.630: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.630: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.630: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.630: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.630: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.630: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.630: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.630: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.630: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.630: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.630: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.630: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.631: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.631: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.631: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:40.631: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:43.175: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:43.175: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:43.175: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:43.175: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+** (caja:1025): CRITICAL **: 15:58:43.265: caja_bookmark_get_location: assertion 'CAJA_IS_BOOKMARK (bookmark)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:43.265: g_file_get_uri: assertion 'G_IS_FILE (file)' failed
+
+(caja:1025): GLib-GObject-CRITICAL **: 15:58:43.265: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:43.266: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:43.266: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:43.267: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:43.267: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:43.270: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:43.270: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:43.270: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:43.270: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:43.288: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:43.288: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:43.288: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:43.288: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:43.288: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:43.288: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:43.288: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:43.288: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:44.477: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:44.477: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:44.477: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:44.477: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+** (caja:1025): CRITICAL **: 15:58:44.565: caja_bookmark_get_location: assertion 'CAJA_IS_BOOKMARK (bookmark)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:44.566: g_file_get_uri: assertion 'G_IS_FILE (file)' failed
+
+(caja:1025): GLib-GObject-CRITICAL **: 15:58:44.566: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:44.588: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:44.588: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:44.588: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:44.588: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:44.590: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:44.590: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:44.590: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:44.590: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:44.602: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:44.602: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:44.602: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:44.602: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:46.150: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:46.150: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:46.150: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:46.150: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+** (caja:1025): CRITICAL **: 15:58:46.230: caja_bookmark_get_location: assertion 'CAJA_IS_BOOKMARK (bookmark)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:46.230: g_file_get_uri: assertion 'G_IS_FILE (file)' failed
+
+(caja:1025): GLib-GObject-CRITICAL **: 15:58:46.231: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:46.242: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:46.242: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:46.242: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:46.242: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:46.258: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:46.258: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:46.258: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:46.258: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+** (caja:1025): CRITICAL **: 15:58:47.963: caja_bookmark_get_location: assertion 'CAJA_IS_BOOKMARK (bookmark)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:47.964: g_file_get_uri: assertion 'G_IS_FILE (file)' failed
+
+(caja:1025): GLib-GObject-CRITICAL **: 15:58:47.964: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:47.982: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:47.982: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:47.983: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:47.983: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:48.172: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:48.172: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:48.172: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:48.172: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+** (caja:1025): CRITICAL **: 15:58:48.682: caja_bookmark_get_location: assertion 'CAJA_IS_BOOKMARK (bookmark)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:48.683: g_file_get_uri: assertion 'G_IS_FILE (file)' failed
+
+(caja:1025): GLib-GObject-CRITICAL **: 15:58:48.683: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:48.688: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:48.688: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:48.688: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:48.688: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:48.890: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:48.890: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:48.891: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:48.891: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:50.398: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:50.398: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:50.398: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:50.398: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:53.236: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:53.236: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:53.236: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:53.236: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:55.023: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:55.023: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:55.023: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:55.023: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:55.023: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:55.023: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:55.023: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:55.023: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:57.827: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:57.827: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:57.827: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:58:57.827: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:00.630: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:00.630: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:00.631: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:00.631: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:03.435: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:03.435: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:03.435: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:03.435: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:06.238: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:06.238: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:06.238: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:06.239: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:09.041: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:09.042: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:09.042: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:09.042: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:09.766: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:09.766: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:09.766: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:09.766: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:09.766: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:09.766: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:09.766: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:09.767: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+** (caja:1025): CRITICAL **: 15:59:11.512: caja_bookmark_get_location: assertion 'CAJA_IS_BOOKMARK (bookmark)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:11.512: g_file_get_uri: assertion 'G_IS_FILE (file)' failed
+
+(caja:1025): GLib-GObject-CRITICAL **: 15:59:11.512: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:11.513: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:11.513: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:11.513: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:11.513: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:11.720: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:11.720: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:11.720: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:11.720: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:14.319: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:14.319: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:14.319: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:14.319: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:17.124: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:17.124: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:17.124: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:17.124: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:19.927: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:19.927: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:19.927: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:19.927: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:19.975: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:19.975: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:19.975: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:19.975: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+** (caja:1025): CRITICAL **: 15:59:20.099: caja_bookmark_get_location: assertion 'CAJA_IS_BOOKMARK (bookmark)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:20.099: g_file_get_uri: assertion 'G_IS_FILE (file)' failed
+
+(caja:1025): GLib-GObject-CRITICAL **: 15:59:20.099: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:20.110: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:20.110: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:20.110: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:20.110: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:20.112: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:20.112: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:20.112: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:20.112: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:20.112: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:20.112: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:20.113: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:20.113: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:20.113: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:20.113: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:20.113: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:20.113: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:20.113: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:20.113: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:22.729: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:22.729: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:22.729: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:22.730: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:25.533: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:25.533: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:25.533: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:25.533: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:25.619: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:25.619: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:25.619: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:25.619: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:28.335: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:28.335: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:28.335: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:28.335: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:31.138: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:31.139: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:31.139: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:31.139: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:32.266: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:32.266: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:32.266: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:32.266: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:32.389: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:32.389: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:32.389: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:32.389: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:34.741: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:34.741: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:34.741: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:34.741: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:37.544: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:37.545: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:37.545: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:37.545: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:40.348: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:40.349: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:40.349: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:40.349: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.151: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.151: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.151: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.151: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.247: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.247: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.247: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.248: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+** (caja:1025): CRITICAL **: 15:59:43.303: caja_bookmark_get_location: assertion 'CAJA_IS_BOOKMARK (bookmark)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.303: g_file_get_uri: assertion 'G_IS_FILE (file)' failed
+
+(caja:1025): GLib-GObject-CRITICAL **: 15:59:43.304: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.307: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.307: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.307: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.307: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.314: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.314: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.314: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.314: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.314: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.314: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.314: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.314: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.314: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.314: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.314: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.314: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.314: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:43.314: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+** (caja:1025): CRITICAL **: 15:59:44.494: caja_bookmark_get_location: assertion 'CAJA_IS_BOOKMARK (bookmark)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:44.494: g_file_get_uri: assertion 'G_IS_FILE (file)' failed
+
+(caja:1025): GLib-GObject-CRITICAL **: 15:59:44.494: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:44.499: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:44.499: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:44.500: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:44.500: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:44.702: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:44.702: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:44.702: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:44.702: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:47.560: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:47.560: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:47.560: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:47.560: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:50.364: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:50.364: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:50.364: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:50.364: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+** (caja:1025): CRITICAL **: 15:59:51.219: caja_bookmark_get_location: assertion 'CAJA_IS_BOOKMARK (bookmark)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:51.219: g_file_get_uri: assertion 'G_IS_FILE (file)' failed
+
+(caja:1025): GLib-GObject-CRITICAL **: 15:59:51.219: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:51.232: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:51.232: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:51.232: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:51.232: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:51.426: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:51.426: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:51.426: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:51.426: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:53.441: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:53.441: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:53.441: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:53.441: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+** (caja:1025): CRITICAL **: 15:59:53.515: caja_bookmark_get_location: assertion 'CAJA_IS_BOOKMARK (bookmark)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:53.515: g_file_get_uri: assertion 'G_IS_FILE (file)' failed
+
+(caja:1025): GLib-GObject-CRITICAL **: 15:59:53.515: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:53.516: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:53.517: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:53.517: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:53.517: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:53.528: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:53.528: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:53.528: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:53.528: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.041: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.041: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.041: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.041: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+** (caja:1025): CRITICAL **: 15:59:55.107: caja_bookmark_get_location: assertion 'CAJA_IS_BOOKMARK (bookmark)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.107: g_file_get_uri: assertion 'G_IS_FILE (file)' failed
+
+(caja:1025): GLib-GObject-CRITICAL **: 15:59:55.107: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.128: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.128: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.128: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.128: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.129: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.129: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.129: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.129: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.129: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.129: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.129: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.129: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.130: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.130: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.130: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.130: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.132: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.132: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.132: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.132: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.144: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.144: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.144: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:55.144: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:57.847: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:57.847: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:57.847: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:57.847: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+** (caja:1025): CRITICAL **: 15:59:58.177: caja_bookmark_get_location: assertion 'CAJA_IS_BOOKMARK (bookmark)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:58.178: g_file_get_uri: assertion 'G_IS_FILE (file)' failed
+
+(caja:1025): GLib-GObject-CRITICAL **: 15:59:58.178: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:58.183: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:58.183: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:58.183: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:58.183: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:58.387: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:58.387: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:58.387: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 15:59:58.387: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:00.652: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:00.652: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:00.652: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:00.652: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:00.752: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:00.752: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:00.752: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:00.752: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:03.460: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:03.460: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:03.460: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:03.461: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:03.561: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:03.561: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:03.561: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:03.561: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.263: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.263: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.264: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.264: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.363: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.363: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.363: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.363: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.584: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.585: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.585: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.585: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+** (caja:1025): CRITICAL **: 16:00:06.651: caja_bookmark_get_location: assertion 'CAJA_IS_BOOKMARK (bookmark)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.651: g_file_get_uri: assertion 'G_IS_FILE (file)' failed
+
+(caja:1025): GLib-GObject-CRITICAL **: 16:00:06.651: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.684: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.684: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.684: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.684: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.685: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.685: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.685: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.685: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.685: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.685: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.685: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.685: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.685: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.686: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.686: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.686: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.686: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.686: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.686: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.686: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.686: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.686: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.687: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.687: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.687: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.687: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.687: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.687: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.687: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.687: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.687: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.687: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.687: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.688: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.688: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.688: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.688: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.688: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.688: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:06.688: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:09.068: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:09.069: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:09.069: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:09.069: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+** (caja:1025): CRITICAL **: 16:00:09.089: caja_bookmark_get_location: assertion 'CAJA_IS_BOOKMARK (bookmark)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:09.089: g_file_get_uri: assertion 'G_IS_FILE (file)' failed
+
+(caja:1025): GLib-GObject-CRITICAL **: 16:00:09.089: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:09.105: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:09.105: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:09.105: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:09.105: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:09.296: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:09.296: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:09.296: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:09.297: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:11.873: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:11.873: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:11.873: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:11.873: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:11.974: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:11.974: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:11.974: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:11.974: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.256: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.256: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.256: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.256: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.256: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.256: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.256: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.256: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.256: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.257: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.257: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.257: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.257: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.257: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.257: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.257: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.257: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.257: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.257: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.257: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.257: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.257: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.258: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.258: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.258: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.258: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.258: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.258: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.258: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.258: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.258: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.258: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.259: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.259: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.259: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.259: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.259: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.259: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.259: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.259: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.259: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.259: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.259: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.259: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.260: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.260: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.260: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.260: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.260: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.260: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.260: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.260: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.260: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.260: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.260: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.260: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.261: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.261: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.261: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.261: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.261: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.261: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.261: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.261: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.261: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.261: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.262: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.262: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.262: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.262: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.262: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.262: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.262: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.262: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.262: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.262: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.262: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.263: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.263: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.263: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.263: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.263: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.263: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.263: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.263: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.263: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.263: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.263: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.263: GFileInfo created without standard::sort-order
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.264: file ../../../gio/gfileinfo.c: line 2108 (g_file_info_get_sort_order): should not be reached
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.264: GFileInfo created without standard::symlink-target
+
+(caja:1025): GLib-GIO-CRITICAL **: 16:00:13.264: file ../../../gio/gfileinfo.c: line 2062 (g_file_info_get_symlink_target): should not be reached

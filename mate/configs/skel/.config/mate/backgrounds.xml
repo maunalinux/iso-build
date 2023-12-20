@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+<wallpapers>
+  <wallpaper deleted="false">
+    <name>Cosmos</name>
+    <filename>/usr/share/backgrounds/cosmos/background-1.xml</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Mauna Linux</name>
+    <filename>/usr/share/backgrounds/mauna/mauna-oficial.png</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>rgb(0,0,0)</pcolor>
+    <scolor>rgb(0,0,0)</scolor>
+    <artist>Mauna</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Mauna Linux</name>
+    <filename>/usr/share/backgrounds/mauna/mauna1.png</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>rgb(0,0,0)</pcolor>
+    <scolor>rgb(0,0,0)</scolor>
+    <artist>Mauna</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Mauna Linux</name>
+    <filename>/usr/share/backgrounds/mauna/mauna2.png</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>rgb(0,0,0)</pcolor>
+    <scolor>rgb(0,0,0)</scolor>
+    <artist>Mauna</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Nenhum plano de fundo</name>
+    <filename>(none)</filename>
+    <options>wallpaper</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+</wallpapers>
