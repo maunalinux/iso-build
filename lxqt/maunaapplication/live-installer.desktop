@@ -1,0 +1,64 @@
+[Desktop Entry]
+
+# The type as listed above
+Type=Application
+
+# The version of the desktop entry specification to which this file complies
+Version=1.0
+
+# The name of the application
+Name=Install Mauna Linux
+Name[af]=Installeer Mauna Linux
+Name[ar]=تثبيت ماونا لينكس
+Name[de]=Installieren Sie Mauna Linux
+Name[el]=Εγκαταστήστε το Mauna Linux
+Name[es]=Instalar Mauna Linux
+Name[eu]=Instalatu Mauna Linux
+Name[ja]=マウナ Linux をインストールする
+Name[ko]=마우나 리눅스 설치
+Name[pl]=Zainstaluj Maunę Linux
+Name[pt_BR]=Instalar Mauna Linux
+Name[pt]=Instalar Mauna Linux
+Name[ru]=Установить Мауна Линукс
+Name[zh_CN]=安装 莫纳 Linux
+Name[zh_HK]=安裝 莫納 Linux
+Name[zh_TW]=安裝 莫納 Linux
+
+
+# A comment which can/will be used as a tooltip
+Comment=Install this system permanently to your hard disk
+Comment[af]=Installeer hierdie stelsel permanent op jou hardeskyf
+Comment[ar]=قم بتثبيت هذا النظام بشكل دائم على القرص الصلب الخاص بك
+Comment[de]=Installieren Sie dieses System dauerhaft auf Ihrer Festplatte
+Comment[el]=Εγκαταστήστε αυτό το σύστημα μόνιμα στον σκληρό σας δίσκο
+Comment[es]=Instale este sistema permanentemente en su disco duro
+Comment[eu]=Instalatu sistema hau betiko zure disko gogorrean
+Comment[ja]=このシステムをハードディスクに永続的にインストールします
+Comment[ko]=이 시스템을 하드 디스크에 영구적으로 설치하십시오.
+Comment[pl]=Zainstaluj ten system na stałe na dysku twardym
+Comment[pt_BR]=Instale este sistema permanentemente em seu Disco Rigido
+Comment[pt]=Instale este sistema permanentemente no disco rígido
+Comment[ru]=Установите эту систему на свой жесткий диск навсегда.
+Comment[zh_CN]=将此系统永久安装到您的硬盘上
+Comment[zh_HK]=將此系統永久安裝到您的硬盤上
+Comment[zh_TW]=將此系統永久安裝到您的硬盤上
+
+
+# The path to the folder in which the executable is run
+Path=/lib/live-installer/
+
+# The executable of the application, possibly with arguments.
+Exec=bash /usr/bin/live-installer
+
+# The name of the icon that will be used to display this entry
+Icon=/lib/live-installer/branding/icon.svg
+
+# Describes whether this application needs to be run in a terminal or not
+Terminal=false
+
+# Describes the categories in which this entry should be shown
+Categories=GTK;System;Settings;X-MATE;X-Cinnamon;
+
+# Show only in
+OnlyShowIn=GNOME;MATE;Cinnamon;XFCE;LXQt;
+

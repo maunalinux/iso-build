@@ -1,0 +1,44 @@
+#!/bin/bash
+
+### Error checking added to "lint-trap" section.
+### Missing files no longer cause builds to fail.
+
+# Install Mauna Repo
+apt-get -y install wget
+wget http://apt.maunalinux.top/mauna/pool/main/m/mauna-keyring/mauna-keyring_1.0.0_all.deb
+apt-get -y install ./mauna-keyring_1.0.0_all.deb
+wget http://apt.maunalinux.top/mauna/pool/main/m/mauna-sources/mauna-sources_24.0_all.deb
+apt-get -y install ./mauna-sources_24.0_all.deb
+rm -r ./*.deb
+apt-get update
+apt-get upgrade -y
+
+# Install Mauna LXQt
+
+apt-get install -y mauna-meta-lxqt mauna-meta-core mauna-meta-firmware-git libdbus-glib-1-2 mauna-installer redshift-gtk arc-theme w64codecs
+
+# Remove software
+apt --purge remove -y firefox-esr software-properties-gtk software-properties-common python3-software-properties --auto-remove
+apt --purge remove -y software-properties* snapd --auto-remove
+apt --purge --yes autoremove vim vim-tiny nautilus hv3 mpv murrine-themes konsole malcontent termit raspi-firmware systemsettings nvidia* termit
+apt-get update
+# Lowers the footprint in RAM at the small expense of added size to the ISO.
+#update-icon-caches /usr/share/icons/*
+find /usr/share/icons -type d -exec gtk-update-icon-cache -f {} \;
+
+#add flatpak repo to gnome-software
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+# Install Broadcom drivers support
+
+#apt-get -y install linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,') linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,') broadcom-sta-dkms
+#modprobe -r b44 b43 b43legacy ssb brcmsmac bcma
+#modprobe wl
+#apt-get update
+
+#fix network-manager install 
+dpkg-reconfigure network-manager
+
+#add-architecture i386
+dpkg --add-architecture i386
+

@@ -1,0 +1,1518 @@
+1.2
+lxqt-applications.menu+hidden
+19
+D/home/jean/.local/share/desktop-directories
+D/home/jean/.local/share/flatpak/exports/share/desktop-directories
+D/var/lib/flatpak/exports/share/desktop-directories
+D/usr/local/share/desktop-directories
+D/usr/share/desktop-directories
+D/home/jean/.local/share/applications
+D/home/jean/.local/share/flatpak/exports/share/applications
+D/var/lib/flatpak/exports/share/applications
+D/usr/local/share/applications
+D/usr/share/applications
+D/usr/share/applications/kde4
+D/usr/share/applications/screensavers
+D/usr/share/menus/applications-merged
+D/etc/xdg/menus/applications-merged
+D/etc/menus/applications-merged
+D/home/jean/.config/menus/applications-merged
+F/home/jean/.config/menus/lxqt-applications.menu
+F/etc/menus/lxqt-applications.menu
+F/etc/xdg/menus/lxqt-applications.menu
+LXQt;MATE;Unity;
++Applications
+Aplicativos
+Aplicativos
+applications-other
+lxde-menu-applications.directory
+4
+0
++Universal Access
+Acessibilidade
+Configurações de acessibilidade
+preferences-desktop-accessibility
+lxde-utility-accessibility.directory
+4
+4
+
++Accessories
+Acessórios
+Acessórios da área de trabalho
+applications-accessories
+lxde-utility.directory
+4
+0
+-yelp.desktop
+Ajuda
+Obtenha ajuda sobre o GNOME
+org.gnome.Yelp
+
+9
+
+yelp %u
+2
+130
+
+
+GNOME;GTK;Core;Documentation;Utility
+documentação,informação,informações,manual,ajuda
+-mate-calc.desktop
+Calculadora do MATE
+Efetue cálculos aritméticos, científicos ou financeiros
+accessories-calculator
+
+9
+Calculadora
+mate-calc
+2
+0
+
+
+GTK;Utility;Calculator
+calculadora,MATE,científica,aritmética,financeira,cálculos
+-feathernotes.desktop
+FeatherNotes
+Lightweight notes manager
+feathernotes
+
+9
+
+feathernotes %f
+0
+0
+
+
+Qt;Utility;TextEditor
+
+-featherpad.desktop
+FeatherPad
+Editor de texto leve baseado em Qt
+featherpad
+
+9
+Editor de texto
+featherpad %U
+0
+0
+
+
+Qt;Utility;TextEditor
+Text,Editor,Plaintext
+-pcmanfm-qt.desktop
+Gerenciador de Arquivos PCManFM-Qt
+Navegue pelo sistema de arquivos e gerencie arquivos e pastas
+system-file-manager
+
+9
+Gerenciador de Arquivos
+pcmanfm-qt %U
+2
+0
+
+
+FileManager;Utility;Core;Qt
+
+-gucharmap.desktop
+Mapa de caracteres
+Insira caracteres especiais nos documentos
+accessories-character-map
+
+9
+
+gucharmap
+2
+0
+
+
+GNOME;GTK;Utility
+fonte,unicode,caracteres,gucharmap,mapa,símbolos
+-org.xfce.Catfish.desktop
+Pesquisador de arquivos Catfish
+Pesquisar no sistema de arquivos
+org.xfce.catfish
+
+9
+Pesquisar arquivo
+/usr/bin/catfish %f
+0
+0
+
+
+GNOME;GTK;Utility
+arquivos,buscar,localizar,encontrar,pesquisar
+-qlipper.desktop
+Qlipper
+Clipboard history tool
+qlipper
+
+9
+Clipboard Tool
+qlipper
+0
+0
+qlipper
+
+Qt;Utility
+
+-redshift.desktop
+Redshift
+Ferramenta de ajuste de temperatura de cor
+redshift
+
+9
+Ajuste de temperatura de cor
+redshift
+5
+0
+
+
+Utility
+
+-redshift-gtk.desktop
+Redshift
+Ferramenta de ajuste de temperatura de cor
+redshift
+
+9
+Ajuste de temperatura de cor
+redshift-gtk
+2
+0
+
+
+Utility
+
+-stacer.desktop
+Stacer
+Linux System Optimizer and Monitoring
+stacer
+
+9
+
+stacer
+0
+0
+
+
+Utility
+
+-vim.desktop
+Vim
+Edite arquivos de texto
+gvim
+
+9
+Text Editor
+vim %F
+1
+0
+vim
+
+Utility;TextEditor
+Text,editor
+-xarchiver.desktop
+Xarchiver
+Um gerenciador de pacotes baseado no GTK+
+xarchiver
+
+9
+Gerenciador de pacotes
+xarchiver %f
+2
+0
+
+
+GTK;Archiving;Compression;Utility
+GTK,android,archiver,archiving,comic book,compression,front end,frontend,library,7-zip,7z,7za,7zip,7zr,apk,ar,arj,bunzip2,bz2,bzip2,cbz,compress,cpio,deb,epub,exe,gtar,gunzip,gz,gzip,jar,jsonlz4,lbzip2,lha,lrz,lrzip,lsar,lz,lz4,lzh,lzip,lzma,lzo,lzop,mozlz4,oxt,pbzip2,pigz,plzip,rar,rar4,rar5,rpm,tar,unar,unarchiver,unarj,unrar,unzip,xpi,xz,zip,zst,Zstandard,zstd
+-xfburn.desktop
+Xfburn
+Aplicativo de gravação de CD e DVD
+stock_xfburn
+
+9
+Gravando disco
+xfburn
+2
+0
+xfburn
+
+X-XFCE;GTK;DiscBurning;Archiving;AudioVideo;Utility
+
+
++Development
+Desenvolvimento
+Ferramentas para desenvolvimento de software
+applications-development
+lxde-development.directory
+4
+0
+-python3.9.desktop
+Python (v3.9)
+Python Interpreter (v3.9)
+/usr/share/pixmaps/python3.9.xpm
+
+9
+
+/usr/bin/python3.9
+7
+0
+
+
+Development
+
+
++Education
+Educativo
+
+applications-science
+lxde-education.directory
+4
+4
+
++Office
+Escritório
+Aplicativos de escritório
+applications-office
+lxde-office.directory
+4
+0
+-qpdfview.desktop
+qpdfview
+A tabbed document viewer using Qt and the Poppler library.
+qpdfview
+
+9
+tabbed document viewer
+qpdfview --unique %F
+0
+0
+qpdfview
+
+Viewer;Office
+viewer,document,presentation,pdf,ps,djvu
+
++Graphics
+Gráficos
+Aplicativos gráficos
+applications-graphics
+lxde-graphics.directory
+4
+0
+-lximage-qt.desktop
+LXImage-Qt
+O visualizador de imagens do LXQt
+lximage-qt
+
+9
+Visualizador de imagens
+lximage-qt %F
+2
+0
+
+
+Graphics;Viewer;RasterGraphics;2DGraphics;Photography
+
+-gimp.desktop
+Programa de manipulação de imagem do GNU
+Crie e edite imagens ou fotografias
+gimp
+
+9
+Editor de imagens
+gimp-2.10 %U
+2
+0
+gimp-2.10
+
+Graphics;2DGraphics;RasterGraphics;GTK
+GIMP,gráficos,design,ilustração,pintura
+-xsane.desktop
+XSane
+Um programa para trabalhar com digitalizadores de imagens (scanners). Pode ser utilizado para digitalizar, como ferramenta fax, e para fazer reconhecimento de texto.
+xsane
+
+9
+Programa de Digitalização de Imagens XSane
+xsane
+2
+0
+
+
+Application;Graphics;GTK;RasterGraphics;Scanning;OCR;2DGraphics
+scannerfrontend
+
++Internet
+Internet
+Programas para acesso à Internet tais como web e e-mail
+applications-internet
+lxde-network.directory
+4
+0
+-thunderbird.desktop
+Cliente de E-mail Thunderbird
+Leia e escreva suas mensagens
+thunderbird
+
+9
+Cliente de E-mail
+/usr/bin/thunderbird %u
+2
+0
+
+
+Network;Email;News;GTK
+EMail,E-mail,Contact,Addressbook,News
+-firefox.desktop
+Navegador Web Firefox
+Navegue na Internet
+firefox
+
+9
+Navegador Web
+firefox %u
+2
+0
+
+
+GNOME;GTK;Network;WebBrowser
+Internet,WWW,Browser,Web,Explorador,Navegador
+-org.qbittorrent.qBittorrent.desktop
+qBittorrent
+Baixe e compartilhe arquivos pelo BitTorrent
+qbittorrent
+
+9
+Cliente BitTorrent
+qbittorrent %U
+0
+0
+
+
+Network;FileTransfer;P2P;Qt
+bittorrent,torrent,magnet,download,p2p
+-telegramdesktop.desktop
+Telegram Desktop
+Official desktop version of Telegram messaging app
+telegram
+
+9
+
+telegram-desktop -- %u
+0
+0
+telegram-desktop
+
+Chat;Network;InstantMessaging;Qt
+tg,chat,im,messaging,messenger,sms,tdesktop
+
++Games
+Jogos
+Jogos e diversões
+applications-games
+lxde-game.directory
+4
+0
+-org.gnome.TwentyFortyEight.desktop
+2048
+Obtenha o bloco 2048
+org.gnome.TwentyFortyEight
+
+9
+
+gnome-2048
+2
+0
+gnome-2048
+
+GNOME;GTK;Game
+quebra-cabeça,puzzle
+-org.gnome.Mahjongg.desktop
+Mahjongg
+Desmonte uma pilha de pedras removendo os pares iguais
+org.gnome.Mahjongg
+
+9
+
+gnome-mahjongg
+2
+0
+
+
+GNOME;GTK;Game;BoardGame
+jogo,game,estratégia,quebra-cabeça,enigma,tabuleiro
+-org.gnome.Sudoku.desktop
+Sudoku
+Teste suas habilidades lógicas nesse jogo de grades numéricas
+org.gnome.Sudoku
+
+9
+
+gnome-sudoku
+2
+0
+
+
+GNOME;GTK;Game;LogicGame
+mágico,quadrado
+-org.gnome.Chess.desktop
+Xadrez
+Jogue o clássico jogo de tabuleiro de xadrez para dois jogadores
+org.gnome.Chess
+
+9
+Jogo de xadrez
+gnome-chess
+2
+0
+
+
+GNOME;GTK;Game;BoardGame
+game,jogo,estratégia
+
++Multimedia
+Multimídia
+Menu multimídia
+applications-multimedia
+lxde-audio-video.directory
+4
+0
+-pavucontrol.desktop
+Controle de volume do PulseAudio
+Ajuste o nível do volume
+multimedia-volume-control
+
+9
+Controle de volume
+pavucontrol
+2
+0
+
+
+AudioVideo;Audio;Mixer;GTK
+
+-guvcview.desktop
+guvcview
+Um visualizador e capturador de de vídeo para o controlador linux uvc
+/usr/share/pixmaps/guvcview/guvcview.png
+
+9
+Visualizador de vídeo GTK UVC
+guvcview
+2
+0
+guvcview
+
+Video;AudioVideo
+
+-vlc.desktop
+Reprodutor de Mídias VLC
+Reproduza, capture e transmita os seus transmissões multimídia
+vlc
+
+9
+Reprodutor de Mídias
+/usr/bin/vlc --started-from-file %U
+0
+0
+/usr/bin/vlc
+
+AudioVideo;Player;Recorder
+Player,Capture,DVD,Audio,Video,Server,Broadcast
+-xfburn.desktop
+Xfburn
+Aplicativo de gravação de CD e DVD
+stock_xfburn
+
+9
+Gravando disco
+xfburn
+2
+0
+xfburn
+
+X-XFCE;GTK;DiscBurning;Archiving;AudioVideo;Utility
+
+
++Other
+Outros
+Aplicativos que não se encaixam em outras categorias
+applications-other
+lxde-other.directory
+4
+0
+-notification-daemon.desktop
+Daemon de Notificação
+Exibir notificações
+
+
+9
+
+/usr/lib/notification-daemon/notification-daemon
+4
+0
+
+
+
+
+-geoclue-demo-agent.desktop
+Geoclue Demo agent
+
+mark-location-symbolic
+
+9
+Demo geoclue agent
+/usr/libexec/geoclue-2.0/demos/agent
+4
+-3
+
+
+
+geolocation
+-xdg-desktop-portal-gtk.desktop
+Portal
+
+applications-system-symbolic
+
+9
+
+/usr/libexec/xdg-desktop-portal-gtk
+4
+0
+
+
+
+
+-gcr-prompter.desktop
+Prompt de acesso
+Destrave acesso a senhas e outros segredos
+security-medium
+
+9
+
+/usr/libexec/gcr-prompter
+4
+0
+
+
+
+
+-nm-applet.desktop
+Rede
+Controle suas conexões de rede
+nm-device-wireless
+
+9
+
+nm-applet
+4
+-7
+
+
+
+
+-amarokinstall-fp-handler.desktop
+Software Manager
+Mime handler for amarokinstall
+amarokinstall
+
+9
+
+amarokinstall-fp-handler %u
+4
+0
+
+
+
+
+-gcr-viewer.desktop
+Visualize um arquivo
+
+
+
+9
+
+/usr/bin/gcr-viewer
+4
+0
+
+
+
+
+
++System
+Sistema
+Configuração e monitoramento do sistema
+applications-system
+lxde-system-tools.directory
+4
+0
+-org.gnome.PackageUpdater.desktop
+Atualizador de pacotes
+Atualize os programas instalados no sistema
+system-software-update
+
+9
+
+gpk-update-viewer
+2
+-5
+
+
+GNOME;GTK;System
+Atualização,Updates,Atualizar,Upgrade
+-bpytop.desktop
+bpytop
+Resource monitor that shows adjustable usage and stats
+/usr/share/pixmaps/bpytop.svg
+
+9
+bpytop
+/usr/bin/bpytop
+3
+0
+
+
+System;Utility
+system,process,task,cpu,processor,frequency,memory,ram,resources,sensors
+-amarokinstall-kde.desktop
+Gerenciador de Aplicativos
+Instalar novos aplicativos
+amarokinstall
+
+9
+Instalar novos aplicativos
+amarokinstall
+0
+4
+
+
+System
+
+-pcmanfm.desktop
+Gerenciador de Arquivos PCManFM
+Navegue pelo sistema de arquivos e gerencie arquivos e pastas
+system-file-manager
+
+9
+Gerenciador de arquivos
+pcmanfm %U
+2
+0
+
+
+System;FileTools;FileManager;Utility;Core;GTK
+
+-gparted.desktop
+GParted
+Crie, reorganize e exclua partições
+gparted
+
+9
+Editor de Partições
+/usr/sbin/gparted %f
+2
+0
+
+
+GNOME;System;Filesystem
+Partição,Partition
+-htop.desktop
+Htop
+Mostra os processos do sistema
+htop
+
+9
+Visualizador de processos
+htop
+1
+0
+
+
+System;Monitor;ConsoleOnly
+system,process,task
+-gpk-log.desktop
+Log do pacote
+Visualize tarefas de gerenciamento de pacotes passadas
+gpk-log
+
+9
+
+gpk-log
+6
+0
+
+
+GNOME;GTK;System
+
+-qps.desktop
+qps
+Aplicação em Qt para mostrar e gerir os processos em execução
+qps
+
+9
+Gestor de processos em Qt
+qps
+0
+0
+qps
+
+System
+
+-qterminal.desktop
+QTerminal
+Emulador de terminal
+utilities-terminal
+
+9
+Emulador de terminal
+qterminal
+0
+0
+
+
+Qt;System;TerminalEmulator
+
+-qterminal-drop.desktop
+QTerminal suspenso
+Um emulador de terminal suspenso
+utilities-terminal
+
+9
+Terminal suspenso
+qterminal --drop
+0
+0
+
+
+Qt;System;TerminalEmulator
+
+-kde4-amarokwelcome.desktop
+Tela de Boas-Vindas
+Introdução ao Amarok Linux
+amarokwelcome
+amarokwelcome.desktop
+10
+Tela de Boas-Vindas
+amarokwelcome
+0
+4
+
+
+System
+
+-timeshift-gtk.desktop
+Timeshift
+System Restore Utility
+timeshift
+
+9
+System Restore Utility
+timeshift-launcher
+0
+0
+
+
+System
+backup,btrfs,rsync
+-debian-uxterm.desktop
+UXTerm
+xterm wrapper for Unicode environments
+mini.xterm
+
+9
+
+uxterm
+0
+0
+
+
+System;TerminalEmulator
+shell,prompt,command,commandline,cmd
+-xfce4-terminal.desktop
+Xfce Terminal
+Emulador de terminal
+org.xfce.terminal
+
+9
+Emulador de terminal
+xfce4-terminal
+2
+0
+
+
+GTK;System;TerminalEmulator
+
+-debian-xterm.desktop
+XTerm
+standard terminal emulator for the X window system
+mini.xterm
+
+9
+
+xterm
+0
+0
+
+
+System;TerminalEmulator
+shell,prompt,command,commandline,cmd
+
+-
++DesktopSettings
+Preferências
+Preferências pessoais
+preferences-desktop
+lxde-settings.directory
+4
+0
++LXQtSettings
+Definições do LXQt
+
+preferences-system
+lxqt-settings.directory
+4
+0
+-lxqt-config.desktop
+Central de Configurações LXQt
+Configurar seu sistema
+preferences-system
+
+9
+Configurações do Sistema
+lxqt-config
+0
+32
+
+
+Settings;DesktopSettings;Qt;LXQt
+
+-
+-pcmanfm-qt-desktop-pref.desktop
+Ambiente de trabalho
+Mudar os papéis de parede e o comportamento do gestor do ambiente
+user-desktop
+
+9
+Definições do ambiente de trabalho
+pcmanfm-qt --desktop-pref=general
+2
+0
+
+
+Settings;Qt;DesktopSettings
+
+-lxqt-config-appearance.desktop
+Aparência
+Configurar a aparência da área de trabalho LXQt
+preferences-desktop-theme
+
+9
+Configurações de Aparência
+lxqt-config-appearance
+0
+32
+
+
+Settings;DesktopSettings;Qt;LXQt
+
+-lxqt-config-file-associations.desktop
+Associação de ficheiros
+Configurar associação de ficheiros para os tipos de ficheiro conhecidos
+preferences-desktop-filetype-association
+
+9
+Definições de associação de ficheiros
+lxqt-config-file-associations
+0
+32
+
+
+Settings;DesktopSettings;Qt;LXQt
+
+-lxqt-config-brightness.desktop
+Brilho
+Definições de brilho para o LXQt
+brightnesssettings
+
+9
+Definições de brilho
+lxqt-config-brightness
+0
+32
+
+
+Settings;DesktopSettings;Qt;LXQt;HardwareSettings
+
+-lxqt-config-session.desktop
+Configurações de Sessão
+Configuração para sessões do LXQt
+preferences-system-session-services
+
+9
+Configurações de sessão do LXQt
+lxqt-config-session
+0
+32
+
+
+Settings;DesktopSettings;Qt;LXQt
+
+-lxqt-admin-time.desktop
+Data e hora
+Configurar a data e a hora do sistema
+preferences-system-time
+
+9
+Definições de data e hora
+lxqt-admin-time
+0
+32
+
+
+LXQt;Settings;DesktopSettings;Qt
+
+-lxqt-config-monitor.desktop
+Definições do monitor
+Configuração de monitores
+preferences-desktop-display
+
+9
+Definições do monitor
+lxqt-config-monitor
+0
+32
+
+
+Settings;DesktopSettings;Qt;LXQt;HardwareSettings
+
+-lxqt-config-powermanagement.desktop
+Gestão de energia
+Definições do gestor de energia
+preferences-system-power-management
+
+9
+Definições do gestor de energia
+lxqt-config-powermanagement
+0
+32
+
+
+Settings;DesktopSettings;Qt;LXQt
+
+-lxqt-config-locale.desktop
+Idiomas
+Definições de idioma para o LXQt
+preferences-desktop-locale
+
+9
+Definições de idioma
+lxqt-config-locale
+0
+32
+
+
+Settings;DesktopSettings;Qt;LXQt
+
+-lxqt-config-notificationd.desktop
+Notificações
+Configurar as notificações da área de trabalho do LXQt
+preferences-desktop-notification
+
+9
+Configurações das Notificações LXQt
+lxqt-config-notificationd
+0
+32
+
+
+Settings;DesktopSettings;Qt;LXQt
+
+-lxqt-config-input.desktop
+Teclado e Rato
+Configuração do rato, teclado e outros dispositivos de introdução
+preferences-desktop-peripherals
+
+9
+Definições de introdução
+lxqt-config-input
+0
+32
+
+
+Qt;Settings;HardwareSettings;DesktopSettings;LXQt
+
+-lxqt-config-globalkeyshortcuts.desktop
+Teclas de Atalho
+Configurar as teclas de atalho do LXQt
+preferences-desktop-keyboard
+
+9
+Configurações dos Atalhos do Teclado
+lxqt-config-globalkeyshortcuts
+0
+32
+
+
+Settings;DesktopSettings;Qt;LXQt
+
+-lxqt-admin-user.desktop
+Utilizadores e grupos
+Configurar os utilizadores e os grupos do seu sistema
+system-users
+
+9
+Definições de utilizadores e grupos
+lxqt-admin-user
+0
+32
+
+
+LXQt;Settings;DesktopSettings;Qt
+
+
+-xfce-wmtweaks-settings.desktop
+Ajustes do gerenciador de janelas
+Ajustes finos do comportamento e efeitos das janelas
+org.xfce.xfwm4-tweaks
+
+9
+
+xfwm4-tweaks-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+janelas,comportamento,configurações,preferências,ciclístico,ciclo,comutação,foco,aumentos,acessibilidade,tecla,arrastar,mover,movendo,esconder,moldura,barra de título,maximizado,ladrilho,tela,hot corner,snapping,mouse,enrolar,espaços de trabalho,colocação,compositor,composição,ativar,desativar,sombras,decorações,opacidade,redimensionar,inativo,pré-visualização,compiz,transições
+-lxqt-xfwmtweaks.desktop
+Ajustes do gerenciador de janelas
+Ajustes finos do comportamento e efeitos das janelas
+wmtweaks
+
+9
+
+xfwm4-tweaks-settings
+2
+32
+xfwm4-tweaks-settings
+
+Settings;DesktopSettings;System
+
+-nm-connection-editor.desktop
+Configuração avançada de rede
+Gerencie e altere suas configurações de conexão de rede
+preferences-system-network
+
+9
+
+nm-connection-editor
+2
+0
+
+
+GNOME;GTK;Settings;X-GNOME-NetworkSettings;X-GNOME-Utilities
+
+-gufw.desktop
+Configuração do Firewall
+Um jeito fácil de configurar seu firewall
+gufw
+
+9
+
+gufw
+0
+0
+
+
+GNOME;GTK;Settings;Security;X-GNOME-Settings-Panel;X-GNOME-SystemSettings;X-Unity-Settings-Panel;X-XFCE-SettingsDialog;X-XFCE-SystemSettings
+gufw,security,firewall,network
+-system-config-printer.desktop
+Configurações da impressora
+Configure impressoras
+printer
+
+9
+Configurações da impressora
+system-config-printer
+2
+0
+
+
+System;Settings;HardwareSettings;Printing;GTK
+
+-xfce4-terminal-settings.desktop
+Configurações do Terminal Xfce
+Configurar Terminal do Xfce
+org.xfce.terminal-settings
+
+9
+
+xfce4-terminal --preferences
+2
+-3
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+-org.debian.galternatives.desktop
+Configurador de Alternativas
+Configure as alternativas padrão do sistema
+galternatives
+
+9
+
+/usr/bin/galternatives
+2
+0
+
+
+Settings;GTK;System
+Alternatives,GAlternatives,Debian
+-lxqt-xfwm-workspaces.desktop
+Espaços de trabalho
+Configure layout, nomes e margens
+xfce4-workspaces
+
+9
+
+xfwm4-workspace-settings
+2
+32
+xfwm4-workspace-settings
+
+Settings;DesktopSettings;System
+
+-xfce-workspaces-settings.desktop
+Espaços de trabalho
+Configure layout, nomes e margens
+org.xfce.workspaces
+
+9
+
+xfwm4-workspace-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+espaços de trabalho,configurações,preferências,áreas de trabalho virtuais,número,janelas,tela,margens
+-amarokinstall.desktop
+Gerenciador de Aplicativos
+Instalar novos aplicativos
+amarokinstall
+
+9
+
+amarokinstall
+2
+-5
+
+
+Application;System;Settings;XFCE;X-XFCE-SettingsDialog;X-XFCE-SystemSettings
+
+-xfce-wm-settings.desktop
+Gerenciador de janelas
+Configure o comportamento e atalhos das janelas
+org.xfce.xfwm4
+
+9
+
+xfwm4-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+janelas,gestão,definições,preferências,temas,estilos,decorações,barra de título,fonte,botões, menu,minimizar,maximizar,tonalidade,roll up,layout,atalhos de teclado,foco,snapping,tela,espaços de trabalho,bordas,canto,ocultar conteúdo,mover,redimensionar,mover,redimensionar,clique duplo
+-lxqt-xfwm-settings.desktop
+Gerenciador de janelas
+Configure o comportamento e atalhos das janelas
+xfwm4
+
+9
+
+xfwm4-settings
+2
+32
+xfwm4-settings
+
+Settings;DesktopSettings;System
+
+-synaptic.desktop
+Gerenciador de pacotes Synaptic
+Instalar, remover e atualizar pacotes de software
+synaptic
+
+9
+Gerenciador de pacotes
+synaptic-pkexec
+2
+0
+
+
+PackageManager;GTK;System;Settings
+
+-amaroklocale.desktop
+Idiomas
+Configurações de idioma
+preferences-desktop-locale
+
+9
+
+amaroklocale
+0
+0
+
+
+GNOME;GTK;Settings;DesktopSettings;XFCE;X-XFCE-SettingsDialog;X-XFCE-SystemSettings
+
+-im-config.desktop
+Input Method
+Set Keyboard Input Method
+input-keyboard
+
+9
+
+im-config
+4
+0
+
+
+Settings
+keyboard,input
+-lightdm-settings.desktop
+Janela de Início de Sessão
+Configure a janela de início de sessão
+lightdm-settings
+
+9
+
+pkexec lightdm-settings
+2
+0
+
+
+GNOME;GTK;Settings;System;XFCE;X-XFCE-SettingsDialog;X-XFCE-SystemSettings
+
+-amaroklocale-im.desktop
+Método de entrada
+Configurações de idioma
+amaroklocale-im
+
+9
+
+amaroklocale-im
+0
+0
+
+
+GNOME;GTK;Settings;DesktopSettings;XFCE;X-XFCE-SettingsDialog;X-XFCE-SystemSettings
+
+-org.guido-berhoerster.code.package-update-indicator.preferences.desktop
+Package Update Indicator Preferences
+Edit the Preferences for Package Update Indicator
+preferences-other
+
+9
+Package Update Indicator Preferences
+package-update-indicator-prefs
+0
+-3
+
+
+Settings;PackageManager;GTK
+atualizações,preferências
+-org.gnome.Packages.desktop
+Pacotes
+Adicione ou remova programas instalados no sistema
+system-software-install
+
+9
+
+gpk-application
+2
+-5
+
+
+GNOME;GTK;System;PackageManager
+Fontes,Sources,Repositórios,Repositories,Preferências,Preferences,Instalar,Install,Armazenar,Store
+-pcmanfm-desktop-pref.desktop
+Preferências da Área de Trabalho
+Altere os papéis de parede e o comportamento do gerenciador da área de trabalho
+user-desktop
+
+9
+
+pcmanfm --desktop-pref
+2
+-79
+
+
+Settings;GTK;DesktopSettings;X-LXDE-Settings
+
+-xscreensaver-properties.desktop
+Protetor de tela
+Modificar as propriedades do protetor de tela
+xscreensaver
+
+9
+
+xscreensaver-demo
+0
+0
+
+
+Settings;DesktopSettings;Security;X-XFCE
+
+-org.amarok.about.desktop
+Sobre o Amarok
+Obtenha informações sobre o seu sistema Amarok.
+/usr/share/amarok/amarok-about/icon.svg
+
+9
+Sobre
+amarok-about
+2
+0
+
+
+Settings
+about
+-amarokwelcome.desktop
+Tela de Boas-Vindas
+Introdução ao Amarok Linux
+amarokwelcome
+
+9
+
+amarokwelcome
+0
+-5
+
+
+GNOME;GTK;Settings;DesktopSettings
+
+
+-lxqt-about.desktop
+Acerca do LXQt
+Saber mais acerca do LXQt
+lxqt-about
+
+9
+Acerca do LXQt
+lxqt-about
+0
+32
+
+
+System;Documentation
+
+-
++X-Leave
+Sair
+
+system-shutdown
+lxqt-leave.directory
+4
+0
+-lxqt-leave.desktop
+Abandonar
+Abandonar a sessão atual
+system-shutdown
+
+9
+Abandonar a sessão atual
+lxqt-leave
+0
+32
+
+
+System;X-Leave
+
+-lxqt-shutdown.desktop
+Desligar
+Desligar o computador
+system-shutdown
+
+9
+Desligar o computador
+lxqt-leave --shutdown
+0
+32
+
+
+System;X-Leave
+
+-lxqt-hibernate.desktop
+Hibernar
+Hibernar o computador
+system-suspend-hibernate
+
+9
+Hibernar o computador
+lxqt-leave --hibernate
+0
+32
+
+
+System;X-Leave
+
+-lxqt-reboot.desktop
+Reiniciar
+Reiniciar o computador
+system-reboot
+
+9
+Reiniciar o computador
+lxqt-leave --reboot
+0
+32
+
+
+System;X-Leave
+
+-lxqt-logout.desktop
+Sair
+Sair da sessão
+system-log-out
+
+9
+Sair da sessão
+lxqt-leave --logout
+0
+32
+
+
+System;X-Leave
+
+-lxqt-suspend.desktop
+Suspender
+Suspender o computador
+system-suspend
+
+9
+Suspender o computador
+lxqt-leave --suspend
+0
+32
+
+
+System;X-Leave
+
+
+-lxqt-lockscreen.desktop
+Bloquear
+Bloquear a sessão atual
+system-lock-screen
+
+9
+Bloquear a sessão atual
+lxqt-leave --lockscreen
+0
+32
+
+
+System;Screensaver
+
+
