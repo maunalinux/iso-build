@@ -8,52 +8,69 @@
 # License:      GPL-3.0-or-later
 ################################################################################
 
-
 PATH="/sbin:/usr/sbin:/usr/local/sbin:$PATH"
 
 # Set the working folder variable
-maunabuild="$(pwd)"
+build="$(pwd)"
 
 
 # Create the build folder, move into it removing stale mountpoints and files there.
 [ -e build ] && [ ! -d build ] && rm -f build || [ ! -e build ] && mkdir build
 cd build
 umount $(mount | grep "${PWD}/chroot" | tac | cut -f3 -d" ") 2>/dev/null
-for i in ./* ./.build ./cache/bootstrap ; do [ $i = ./cache ] && continue || rm -rf $i ; done
+for i in * .build ; do [ $i = cache ] && continue || rm -rf $i ; done
+
 
 # Set of the structure to be used for the ISO and Live system.
 # See /usr/lib/live/build/config for a full list of examples.
 # Up above is the manual description of what options I used so far.
+
 lb config noauto \
 	--binary-images iso-hybrid \
 	--mode debian \
-	--architectures "amd64" \
-	--linux-flavours "amd64" \
-	--distribution "bookworm" \
-        --parent-distribution bookworm \
+	--architectures amd64 \
+	--linux-flavours amd64 \
+	--distribution bookworm \
 	--archive-areas "main contrib non-free non-free-firmware" \
-        --parent-debian-installer-distribution "bookworm" \
-        --debian-installer "live" \
-	--updates "true" \
-        --interactive shell \
+	--debootstrap-options --include=ca-certificates \
+	--updates true \
 	--security true \
 	--backports false \
 	--cache true \
-	--firmware-chroot false \
-	--firmware-binary false \
-	--apt-recommends true \
-	--utc-time true \
 	--uefi-secure-boot enable \
-	--initramfs live-boot \
-	--iso-application Mauna \
-	--iso-preparer Mauna-https://maunalinux.top \
-	--iso-publisher Mauna-https://maunalinux.top \
-	--iso-volume MaunaLinux \
-	--image-name "MaunaLinux-24.0.1-Testing-MATE" \
+	--firmware-binary false \
+	--firmware-chroot false \
+	--iso-application "Mauna" \
+	--iso-preparer "Mauna-https://maunalinux.top" \
+	--iso-publisher "Mauna-https://maunalinux.top" \
+	--iso-volume "MaunaLinux" \
+	--image-name "MaunaLinux" \
 	--win32-loader false \
 	--checksums sha512 \
-	--zsync false \        
+	--zsync false \
+	--utc-time true \
      "${@}"
+
+
+# Install software
+mkdir -p $build/build/config/package-lists
+
+echo "# Install software to the squashfs for the installer to unpack to the OS.
+linux-headers-amd64
+mauna-meta-mate 
+mauna-meta-core 
+mauna-meta-firmware-git 
+libdbus-glib-1-2 
+arc-theme 
+w64codecs
+wget
+git
+curl
+# comment this package to use the calamares installer
+mauna-installer 
+
+" > $build/build/config/package-lists/packages.list.chroot 
+
 
 # Packages to be stored in /pool but not installed in the OS .
 echo "# These packages are available to the installer, for offline use. 
@@ -73,31 +90,48 @@ shim-signed
 shim-signed-common
 shim-unsigned
 
-" > $maunabuild/build/config/package-lists/installer.list.binary 
+" > $build/build/config/package-lists/installer.list.binary 
+
+# Uncomment to install calamares
+#mkdir -p $build/build/config/includes.chroot/etc/calamares
+#mkdir -p $build/build/config/includes.chroot/usr/sbin
+#mkdir -p $build/build/config/includes.chroot/usr/share/pixmaps
+
+#cp -r $build/calamares/calamares/* $build/build/config/includes.chroot/etc/calamares
+#cp $build/calamares/sources-final $build/build/config/includes.chroot/usr/sbin
+#cp $build/calamares/install-debian.png $build/build/config/includes.chroot/usr/share/pixmaps
+
+#echo "
+#calamares 
+#calamares-settings-debian
+
+#" >> $build/build/config/package-lists/calamares.list.chroot
 
 # Setup the chroot structure
-mkdir -p $maunabuild/build/config/archives
-mkdir -p $maunabuild/build/config/includes.binary
-mkdir -p $maunabuild/build/config/hooks/live
-mkdir -p $maunabuild/build/config/hooks/normal
-mkdir -p $maunabuild/build/config/bootloaders
-mkdir -p $maunabuild/build/config/includes.chroot/usr/share/applications
-mkdir -p $maunabuild/build/config/includes.chroot/etc/live/config.conf.d
-mkdir -p $maunabuild/build/config/includes.chroot/usr/share/distro-info
-mkdir -p $maunabuild/build/config/includes.chroot//usr/share/python-apt/templates
-mkdir -p $maunabuild/build/config/includes.chroot/etc/dpkg/origins
+mkdir -p $build/build/config/archives
+mkdir -p $build/build/config/includes.binary
+mkdir -p $build/build/config/hooks/normal
+mkdir -p $build/build/config/hooks/live
+mkdir -p $build/build/config/includes.chroot/usr/share/applications
+mkdir -p $build/build/config/includes.chroot/etc/live/config.conf.d
+mkdir -p $build/build/config/includes.chroot/etc
+mkdir -p $build/build/config/includes.chroot/etc/skel/Desktop
+mkdir -p $build/build/config/includes.chroot/etc/lightdm
 
 # Copy Configs to the chroot
+cp $build/applications/* $build/build/config/includes.chroot/usr/share/applications
+cp $build/repos/* $build/build/config/archives
+cp $build/hooks/live/* $build/build/config/hooks/live
+cp $build/hooks/normal/* $build/build/config/hooks/normal
+cp $build/userconfig/* $build/build/config/includes.chroot/etc/live/config.conf.d
+cp $build/lightdm/* $build/build/config/includes.chroot/etc/lightdm
 
-cp -r $maunabuild/maunaapplication/*  $maunabuild/build/config/includes.chroot/usr/share/applications
-cp -r $maunabuild/maunabootloaders/* $maunabuild/build/config/includes.binary
-cp -r $maunabuild/maunauserconfig/* $maunabuild/build/config/includes.chroot/etc/live/config.conf.d
-cp -r $maunabuild/configs/* $maunabuild/build/config/includes.chroot/etc/
-cp $maunabuild/hooks/live/* $maunabuild/build/config/hooks/live
-cp $maunabuild/hooks/normal/* $maunabuild/build/config/hooks/normal
+cp -r $build/bootloaders/* $build/build/config/includes.binary
+cp -r $build/configs/* $build/build/config/includes.chroot/etc/
 
 #symlinks chroot
-ln -s mauna $maunabuild/build/config/includes.chroot/etc/dpkg/origins/default
+ln -s mauna $build/build/config/includes.chroot/etc/dpkg/origins/default
 
-# Build ISO #
+# Build the ISO #
 lb build  #--debug --verbose 
+
