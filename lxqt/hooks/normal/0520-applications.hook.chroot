@@ -34,7 +34,7 @@ find /usr/share/icons -type d -exec gtk-update-icon-cache -f {} \;
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 #add-architecture i386
-dpkg --add-architecture i386
+#dpkg --add-architecture i386
 
 #apt install-y linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,') linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,') broadcom-sta-dkms
 #modprobe -r b44 b43 b43legacy ssb brcmsmac bcma
