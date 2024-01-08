@@ -57,6 +57,7 @@ echo "# Install software to the squashfs for the installer to unpack to the OS.
 linux-headers-amd64
 mauna-meta-lxqt 
 mauna-meta-core 
+mauna-meta-browser
 mauna-meta-firmware-git 
 libdbus-glib-1-2 
 arc-theme 
@@ -64,8 +65,8 @@ w64codecs
 wget
 git
 curl
-# comment this package to use the calamares installer
-mauna-installer 
+calamares-settings-mauna
+calamares
 
 " > $build/build/config/package-lists/packages.list.chroot 
 
@@ -89,21 +90,6 @@ shim-signed-common
 shim-unsigned
 
 " > $build/build/config/package-lists/installer.list.binary 
-
-# Uncomment to install calamares
-#mkdir -p $build/build/config/includes.chroot/etc/calamares
-#mkdir -p $build/build/config/includes.chroot/usr/sbin
-#mkdir -p $build/build/config/includes.chroot/usr/share/pixmaps
-
-#cp -r $build/calamares/calamares/* $build/build/config/includes.chroot/etc/calamares
-#cp $build/calamares/sources-final $build/build/config/includes.chroot/usr/sbin
-#cp $build/calamares/install-debian.png $build/build/config/includes.chroot/usr/share/pixmaps
-
-#echo "
-#calamares 
-#calamares-settings-debian
-
-#" >> $build/build/config/package-lists/calamares.list.chroot
 
 # Setup the chroot structure
 mkdir -p $build/build/config/archives

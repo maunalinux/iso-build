@@ -30,7 +30,7 @@ rm -r /boot/firmware
 #update-icon-caches /usr/share/icons/*
 find /usr/share/icons -type d -exec gtk-update-icon-cache -f {} \;
 
-#add flatpak repo to gnome-software
+#add flatpak repo to software manager
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 #add-architecture i386
