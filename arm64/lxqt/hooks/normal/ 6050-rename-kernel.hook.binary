@@ -1,0 +1,8 @@
+#!/bin/bash
+#John's note: this will not harm the other architectures. 
+
+rm live/initrd.img
+rm live/vmlinuz
+
+cp live/initrd.img-* live/initrd.img
+cp live/vmlinuz-* live/vmlinuz
