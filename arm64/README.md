@@ -24,6 +24,6 @@ This repository is currently in testing, and is not recommended for production u
 sudo apt install -y binfmt-support qemu-user-static 
 ```
 
-##  # Desktop
+### Desktop
 
 The desktop in use for this version is LXQt, which is a lightweight and very accessible desktop for all types of devices.
