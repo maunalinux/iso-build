@@ -4,7 +4,7 @@
 ### Missing files no longer cause builds to fail.
 
 # Remove software
-apt --purge --yes autoremove \ 
+apt -y remove --purge \ 
    vim \
    vim-tiny \
    nautilus \
@@ -22,7 +22,9 @@ apt --purge --yes autoremove \
    software-properties-common \
    python3-software-properties \
    snapd \
-   gnome-screenshot
+   xfce4-screenshooter \
+   gnome-screenshot \
+apt autoremove -y   
 
 # Remove /boot/firmware folder
 rm -r /boot/firmware
