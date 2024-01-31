@@ -4,7 +4,7 @@
 ### Missing files no longer cause builds to fail.
 
 # Remove software
-apt remove --purge --yes vim vim-tiny nautilus hv3 mpv murrine-themes konsole malcontent termit nvidia-tesla-470-alternative systemsettings raspi-firmware firefox-esr software-properties-gtk software-properties-common python3-software-properties snapd --auto-remove
+apt remove --purge --yes vim vim-tiny nautilus hv3 mpv murrine-themes konsole malcontent termit nvidia-tesla-470-alternative systemsettings raspi-firmware firefox-esr software-properties-gtk software-properties-common python3-software-properties snapd audacious smtube thunderbird thunderbird-l10n-* --auto-remove
 
 # Remove /boot/firmware folder
 rm -r /boot/firmware
@@ -25,3 +25,4 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 # Remove old mauna.list file
 rm /etc/apt/sources.list.d/mauna.list
+
