@@ -9,7 +9,7 @@
 ################################################################################
 
 # Set environment variables
-PREFIX=MaunaLinux-24-Cinnamon 
+PREFIX=MaunaLinux-24.1-Cinnamon 
 SUFFIX=amd64
 BUILD=cinnamon
 TODAY=$(date -u +"%Y-%m-%d")
@@ -20,7 +20,7 @@ WorkingDir="/home/$SUDO_USER/iso-build/cinnamon"
 
 # Execute the ISO building script
 cd ${WorkingDir}
-./build-cinnamon.sh 2>&1 | tee /tmp/build_log.txt
+./build-cinnamon 2>&1 | tee /tmp/build_log.txt
 
 # Move and rename the ISO file
 cd build

@@ -9,7 +9,7 @@
 ################################################################################
 
 # Set environment variables
-PREFIX=MaunaLinux-24-LXQt 
+PREFIX=MaunaLinux-24.1-LXQt 
 SUFFIX=amd64
 BUILD=lxqt
 TODAY=$(date -u +"%Y-%m-%d")
@@ -20,7 +20,7 @@ WorkingDir="/home/$SUDO_USER/iso-build/lxqt"
 
 # Execute the ISO building script
 cd ${WorkingDir}
-./build-lxqt.sh 2>&1 | tee /tmp/build_log.txt
+./build-lxqt 2>&1 | tee /tmp/build_log.txt
 
 # Move and rename the ISO file
 cd build
