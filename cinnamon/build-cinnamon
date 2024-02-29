@@ -112,7 +112,7 @@ cp $build/userconfig/* $build/build/config/includes.chroot/etc/live/config.conf.
 cp $build/lightdm/* $build/build/config/includes.chroot/etc/lightdm
 
 cp -r $build/bootloaders/* $build/build/config/includes.binary
-cp -r $build/configs/skel $build/build/config/includes.chroot/etc
+cp -r $build/configs/* $build/build/config/includes.chroot/etc/
 
 #symlinks chroot
 ln -s mauna $build/build/config/includes.chroot/etc/dpkg/origins/default
