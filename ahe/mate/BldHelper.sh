@@ -9,18 +9,18 @@
 ################################################################################
 
 # Set environment variables
-PREFIX=MaunaLinux-24.2-MATE-ahe
+PREFIX=MaunaLinux-24.1-MATE
 SUFFIX=amd64
-BUILD=mate-ahe
+BUILD=mate
 TODAY=$(date -u +"%Y-%m-%d")
 FileName="${PREFIX}-${SUFFIX}"
 LOCATION="/home/$SUDO_USER/out/${BUILD}"
 LogDir="/home/$SUDO_USER/logs"
-WorkingDir="/home/$SUDO_USER/iso-build/mate-ahe"
+WorkingDir="/home/$SUDO_USER/iso-build/mate"
 
 # Execute the ISO building script
 cd ${WorkingDir}
-./build-mate-ahe.sh 2>&1 | tee /tmp/build_log.txt
+./build-mate.sh 2>&1 | tee /tmp/build_log.txt
 
 # Move and rename the ISO file
 cd build

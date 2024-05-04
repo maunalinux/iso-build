@@ -1,10 +1,10 @@
 #!/bin/bash
 
 ################################################################################
-# Title:        build-cinnamon.sh
-# Description:  Script to build Mauna Cinnamon ISO image
+# Title:        build-mate-ahe.sh
+# Description:  Script to build Mauna MATE ISO image
 # Author:       Mauna Linux <dev@maunalinux.top>
-# Date:         20 Dezembro, 2023
+# Date:         03 Abril, 2024
 # License:      GPL-3.0-or-later
 ################################################################################
 
@@ -38,8 +38,8 @@ lb config noauto \
 	--backports false \
 	--cache true \
 	--uefi-secure-boot enable \
-	--firmware-binary true \
-	--firmware-chroot true \
+	--firmware-binary false \
+	--firmware-chroot false \
 	--iso-application "Mauna" \
 	--iso-preparer "Mauna-https://maunalinux.top" \
 	--iso-publisher "Mauna-https://maunalinux.top" \
@@ -51,14 +51,16 @@ lb config noauto \
 	--utc-time true \
      "${@}"
 
+
 # Install software
 mkdir -p $build/build/config/package-lists
 
 echo "# Install software to the squashfs for the installer to unpack to the OS.
 linux-headers-amd64
-mauna-meta-cinnamon 
-mauna-meta-core 
+mauna-meta-mate 
+mauna-meta-core-ahe
 mauna-meta-browser
+mauna-meta-firmware-git 
 libdbus-glib-1-2 
 arc-theme 
 w64codecs
@@ -66,10 +68,11 @@ wget
 git
 curl
 calamares-settings-mauna
-calamares 
+calamares
 dkms
 
 " > $build/build/config/package-lists/packages.list.chroot 
+
 
 # Packages to be stored in /pool but not installed in the OS .
 echo "# These packages are available to the installer, for offline use. 
@@ -99,7 +102,7 @@ mkdir -p $build/build/config/hooks/normal
 mkdir -p $build/build/config/hooks/live
 mkdir -p $build/build/config/includes.chroot/usr/share/applications
 mkdir -p $build/build/config/includes.chroot/etc/live/config.conf.d
-mkdir -p $build/build/config/includes.chroot/etc/skel/
+mkdir -p $build/build/config/includes.chroot/etc
 mkdir -p $build/build/config/includes.chroot/etc/skel/Desktop
 mkdir -p $build/build/config/includes.chroot/etc/lightdm
 
