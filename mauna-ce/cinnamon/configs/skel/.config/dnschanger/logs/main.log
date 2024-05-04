@@ -1,0 +1,6 @@
+[2024-04-09 16:13:10.583] [info]  start Checking Update...
+[2024-04-09 16:13:10.585] [info]  Checking for update
+[2024-04-09 16:13:10.585] [info]  checking....
+[2024-04-09 16:13:10.587] [info]  Generated new staging user ID: 4a3a2eb0-d51c-5ab3-bf94-f54016baea59
+[2024-04-09 16:13:13.204] [info]  Update for version 2.2.0 is not available (latest version: 2.2.0, downgrade is disallowed).
+[2024-04-09 16:13:13.205] [info]  update not found

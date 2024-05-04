@@ -9,7 +9,7 @@
 ################################################################################
 
 # Set environment variables
-PREFIX=MaunaLinux-24.1-MATE
+PREFIX=MaunaLinux-24.2-MATE
 SUFFIX=amd64
 BUILD=mate
 TODAY=$(date -u +"%Y-%m-%d")

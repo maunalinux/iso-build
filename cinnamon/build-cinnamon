@@ -59,7 +59,7 @@ linux-headers-amd64
 mauna-meta-cinnamon 
 mauna-meta-core 
 mauna-meta-browser
-mauna-meta-firmware-git 
+mauna-meta-firmware-git
 libdbus-glib-1-2 
 arc-theme 
 w64codecs
@@ -68,6 +68,7 @@ git
 curl
 calamares-settings-mauna
 calamares 
+dkms
 
 " > $build/build/config/package-lists/packages.list.chroot 
 

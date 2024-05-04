@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name=Mauna Update
+Name[es]=Actualización de Mauna
+Name[pt]=Atualização do Mauna
+Name[pt_BR]=Mauna Update
+Name[tr]=Mauna Güncelleyici
+Comment=Simple update application
+Comment[es]=Aplicación de actualización sencilla
+Comment[pt]=Aplicação de actualização simples
+Comment[pt_BR]=Aplicativo de atualização simples
+Comment[tr]=Basit güncelleme uygulaması
+Exec=mauna-update --tray
+Icon=mauna-update
+Terminal=false
+Type=Application
+Categories=GTK;System;
+StartupNotify=true
+Keywords=apt;update;upgrade
+

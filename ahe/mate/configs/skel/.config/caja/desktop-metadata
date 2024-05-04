@@ -1,0 +1,34 @@
+[directory]
+caja-icon-view-keep-aligned=true
+caja-icon-view-layout-timestamp=1699814687
+caja-window-scroll-position=x-caja-desktop:///home
+
+[home]
+caja-icon-position=64,102
+icon-scale=1
+caja-icon-position-timestamp=1699814687
+
+[trash]
+caja-icon-position=64,202
+icon-scale=1
+caja-icon-position-timestamp=1699814687
+
+[computer]
+caja-icon-position=64,22
+icon-scale=1
+caja-icon-position-timestamp=1699814687
+
+[My Passport.volume]
+caja-icon-position=64,402
+icon-scale=1
+caja-icon-position-timestamp=1640350799
+
+[One Touch.volume]
+caja-icon-position=64,402
+icon-scale=1
+caja-icon-position-timestamp=1671151874
+
+[MaunaLinux.volume]
+caja-icon-position=64,302
+icon-scale=1
+caja-icon-position-timestamp=1693063489
