@@ -1,0 +1,4 @@
+## Mauna Linux main repos
+
+deb http://apt.maunalinux.top/mauna mauna main contrib non-free non-free-firmware
+deb http://apt.maunalinux.top/ahe ahe main contrib non-free non-free-firmware

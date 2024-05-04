@@ -1,0 +1,26 @@
+{
+	"projects": {
+		"default": {
+			"name": "Exemplo",
+			"created": 1640995200000,
+			"parent": "default",
+			"shows": [
+				{
+					"id": "default"
+				},
+				{
+					"id": "section",
+					"type": "section",
+					"name": "Exemplo",
+					"notes": "Escreva notas aqui"
+				}
+			]
+		}
+	},
+	"folders": {
+		"default": {
+			"name": "Encontros",
+			"parent": "/"
+		}
+	}
+}

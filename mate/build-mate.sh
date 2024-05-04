@@ -69,6 +69,7 @@ git
 curl
 calamares-settings-mauna
 calamares
+dkms
 
 " > $build/build/config/package-lists/packages.list.chroot 
 

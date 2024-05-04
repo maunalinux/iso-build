@@ -38,8 +38,8 @@ lb config noauto \
 	--backports false \
 	--cache true \
 	--uefi-secure-boot enable \
-	--firmware-binary false \
-	--firmware-chroot false \
+	--firmware-binary true \
+	--firmware-chroot true \
 	--iso-application "Mauna" \
 	--iso-preparer "Mauna-https://maunalinux.top" \
 	--iso-publisher "Mauna-https://maunalinux.top" \
@@ -59,7 +59,6 @@ linux-headers-amd64
 mauna-meta-cinnamon 
 mauna-meta-core 
 mauna-meta-browser
-mauna-meta-firmware-git 
 libdbus-glib-1-2 
 arc-theme 
 w64codecs
@@ -68,6 +67,7 @@ git
 curl
 calamares-settings-mauna
 calamares 
+dkms
 
 " > $build/build/config/package-lists/packages.list.chroot 
 
