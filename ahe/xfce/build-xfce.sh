@@ -85,7 +85,7 @@ shim-signed
 shim-signed-common
 shim-unsigned
 
-" > $build/build/config/package-lists/installer.list.binary 
+" > $build/build/config/package-lists/installer.list.binary
 
 # Setup the chroot structure
 mkdir -p $build/build/config/archives
