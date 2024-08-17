@@ -57,18 +57,16 @@ mkdir -p $build/build/config/package-lists
 
 echo "# Install software to the squashfs for the installer to unpack to the OS.
 linux-headers-amd64
-mauna-meta-mate 
-mauna-meta-core 
-mauna-meta-browser
-mauna-meta-firmware-git 
+mauna-mate-desktop
 libdbus-glib-1-2 
 arc-theme 
 w64codecs
 wget
 git
 curl
-calamares-settings-mauna
-calamares
+#calamares-settings-mauna
+#calamares
+mauna-installer
 dkms
 
 " > $build/build/config/package-lists/packages.list.chroot 

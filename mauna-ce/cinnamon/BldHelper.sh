@@ -9,9 +9,9 @@
 ################################################################################
 
 # Set environment variables
-PREFIX=MaunaLinux-24.2-Cinnamon-CE
+PREFIX=MaunaLinux-24.3-Cinnamon-CE
 SUFFIX=amd64
-BUILD=cinnamon
+BUILD=cinnamon-ce
 TODAY=$(date -u +"%Y-%m-%d")
 FileName="${PREFIX}-${SUFFIX}"
 LOCATION="/home/$SUDO_USER/out/${BUILD}"

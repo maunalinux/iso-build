@@ -61,8 +61,9 @@ echo "# Install software to the squashfs for calamares to unpack to the OS.
 linux-headers-amd64
 mauna-xfce-desktop
 mauna-info-xfce
-calamares
-calamares-settings-mauna
+#calamares
+#calamares-settings-mauna
+mauna-installer
 gir1.2-soup-2.4
 
 " > $build/build/config/package-lists/packages.list.chroot 
@@ -108,7 +109,7 @@ cp $build/userconfig/* $build/build/config/includes.chroot/etc/live/config.conf.
 cp $build/lightdm/* $build/build/config/includes.chroot/etc/lightdm
 
 cp -r $build/bootloaders/* $build/build/config/includes.binary
-#cp -r $build/configs/* $build/build/config/includes.chroot/etc/
+cp -r $build/configs/* $build/build/config/includes.chroot/etc/
 
 # Build the ISO #
 lb build  #--debug --verbose 
