@@ -63,9 +63,8 @@ w64codecs
 wget
 git
 curl
-#calamares-settings-mauna
-#calamares
-mauna-installer
+calamares-settings-mauna
+calamares
 dkms
 
 " > $build/build/config/package-lists/packages.list.chroot 

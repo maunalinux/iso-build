@@ -61,10 +61,10 @@ echo "# Install software to the squashfs for calamares to unpack to the OS.
 linux-headers-amd64
 mauna-xfce-desktop
 mauna-info-xfce
-#calamares
-#calamares-settings-mauna
-mauna-installer
+calamares
+calamares-settings-mauna
 gir1.2-soup-2.4
+dkms
 
 " > $build/build/config/package-lists/packages.list.chroot 
 

@@ -64,9 +64,8 @@ git
 curl
 timekpr-next
 xiphos
-mauna-installer
-#calamares-settings-mauna
-#calamares 
+calamares-settings-mauna
+calamares 
 dkms
 
 " > $build/build/config/package-lists/packages.list.chroot 
