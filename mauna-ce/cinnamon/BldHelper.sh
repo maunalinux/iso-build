@@ -9,7 +9,7 @@
 ################################################################################
 
 # Set environment variables
-PREFIX=MaunaLinux-24.3-Cinnamon-CE
+PREFIX=MaunaLinux-24.4-Cinnamon-CE
 SUFFIX=amd64
 BUILD=cinnamon-ce
 TODAY=$(date -u +"%Y-%m-%d")
@@ -28,15 +28,18 @@ mv *.iso ${FileName}.iso
 
 # Create the checksum file for the ISO
 sha512sum ${FileName}.iso > ${FileName}-sha512.checksum
+md5sum ${FileName}.iso > ${FileName}-md5.checksum
 
 # Remove old ISO and checksum files from the desired location
 rm -f ${LOCATION}/${FileName}*.iso
 rm -f ${LOCATION}/${FileName}*-sha512.checksum
+rm -f ${LOCATION}/${FileName}*-md5.checksum
 
 # Move the ISO and checksum files to the desired location
 mkdir -p ${LOCATION}
 mv ${FileName}.iso ${LOCATION}
 mv ${FileName}-sha512.checksum ${LOCATION}
+mv ${FileName}-md5.checksum ${LOCATION}
 
 # Move the log file to the log directory (if it exists)
 mkdir -p ${LogDir}
