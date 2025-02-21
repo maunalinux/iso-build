@@ -9,7 +9,7 @@
 ################################################################################
 
 # Set environment variables
-PREFIX=MaunaLinux-24.4-LXQt 
+PREFIX=MaunaLinux-24.5-LXQt 
 SUFFIX=amd64
 BUILD=lxqt
 TODAY=$(date -u +"%Y-%m-%d")

@@ -9,9 +9,9 @@
 ################################################################################
 
 # Set environment variables
-PREFIX=MaunaLinux-24.4-ahe-Xfce
+PREFIX=MaunaLinux-24.5-ahe-Xfce
 SUFFIX=amd64
-BUILD=xfce
+BUILD=xfce-ahe
 TODAY=$(date -u +"%Y-%m-%d")
 FileName="${PREFIX}-${SUFFIX}"
 LOCATION="/home/$SUDO_USER/out/${BUILD}"
