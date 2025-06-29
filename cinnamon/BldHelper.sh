@@ -9,7 +9,7 @@
 ################################################################################
 
 # Set environment variables
-PREFIX=MaunaLinux-24.6-Cinnamon 
+PREFIX=MaunaLinux-24.7-Cinnamon 
 SUFFIX=amd64
 BUILD=cinnamon
 TODAY=$(date -u +"%Y-%m-%d")

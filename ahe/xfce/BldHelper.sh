@@ -9,7 +9,7 @@
 ################################################################################
 
 # Set environment variables
-PREFIX=MaunaLinux-24.6-ahe-Xfce
+PREFIX=MaunaLinux-24.7-ahe-Xfce
 SUFFIX=amd64
 BUILD=xfce-ahe
 TODAY=$(date -u +"%Y-%m-%d")
