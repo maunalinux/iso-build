@@ -1,0 +1,174 @@
+Xsession: X session started for jean at dom 12 nov 2023 17:50:35 -03
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/jean/.Xauthority
+localuser:jean being added to access control list
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=jean
+dbus-update-activation-environment: setting LC_TIME=pt_BR.UTF-8
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting HOME=/home/jean
+dbus-update-activation-environment: setting DESKTOP_SESSION=lxqt
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting LC_MONETARY=pt_BR.UTF-8
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting LOGNAME=jean
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+dbus-update-activation-environment: setting GTK3_MODULES=xapp-gtk3-module
+dbus-update-activation-environment: setting LC_ADDRESS=pt_BR.UTF-8
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting LC_TELEPHONE=pt_BR.UTF-8
+dbus-update-activation-environment: setting LANG=pt_BR.UTF-8
+dbus-update-activation-environment: setting XDG_CURRENT_DESKTOP=LXQt
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=lxqt
+dbus-update-activation-environment: setting XAUTHORITY=/home/jean/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/jean
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting LC_NAME=pt_BR.UTF-8
+dbus-update-activation-environment: setting GDMSESSION=lxqt
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LC_MEASUREMENT=pt_BR.UTF-8
+dbus-update-activation-environment: setting LC_IDENTIFICATION=pt_BR.UTF-8
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/jean
+dbus-update-activation-environment: setting LC_NUMERIC=pt_BR.UTF-8
+dbus-update-activation-environment: setting LC_PAPER=pt_BR.UTF-8
+[load.applyBestSettings()] Finished
+New PolkitAgentListener  0x55cc1eabca00
+Adding new listener  PolkitQt1::Agent::Listener(0x7ffcaca53130) for  0x55cc1eabca00
+lxqt-config-monitor: Applying current settings...
+Detected "VirtualBox mouse integration" on "/dev/input/event7"
+xinput driver: "libinput"
+Detected "VirtualBox USB Tablet" on "/dev/input/event5"
+xinput driver: "libinput"
+Detected "ImExPS/2 Generic Explorer Mouse" on "/dev/input/event4"
+xinput driver: "libinput"
+Load settings for "VirtualBox mouse integration"
+Load settings for "VirtualBox USB Tablet"
+Load settings for "ImExPS/2 Generic Explorer Mouse"
+Output:  "VGA-1"
+lxqt-config-monitor: Settings applied.
+isPrimaryInstance
+Geolocation service not in use
+Geolocation service in use
+[Notice] Started
+size of cached file QSize(1920, 1080) , requiredSize: QSize(1365, 768)
+no cached wallpaper. generate a new one!
+size of original image QSize(1920, 1080)
+wallpaper cached saved to  "/home/jean/.cache/pcmanfm-qt/lxqt/wallpaper.cache"
+size of cached file QSize(1365, 768) , requiredSize: QSize(1920, 1080)
+no cached wallpaper. generate a new one!
+size of original image QSize(1920, 1080)
+QLayout::removeWidget: Cannot remove a null widget.
+QLayout::removeWidget: Cannot remove a null widget.
+QLayout::removeWidget: Cannot remove a null widget.
+QLayout::removeWidget: Cannot remove a null widget.
+starting
+systemd: "CanHibernate" = "yes"
+systemd: "CanSuspend" = "yes"
+systemd: "CanReboot" = "yes"
+QLayout::removeWidget: Cannot remove a null widget.
+WinIdChange 1200007 handle QWidgetWindow(0x560aad68f8b0, name="LXQtPanel panel1Window") QScreen(0x560aad3ca1c0, name="VGA-1")
+StatusNotifierProxy, services: ()
+Manager selection claimed
+trying to dock window  35651600
+adding damage watch for  35651600
+trying to dock window  33554452
+adding damage watch for  33554452
+trying to dock window  31457292
+adding damage watch for  31457292
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 630, resource id: 35651600, major code: 3 (GetWindowAttributes), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 9 (BadDrawable), sequence: 631, resource id: 35651600, major code: 143 (Unknown), minor code: 1
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 634, resource id: 33554452, major code: 3 (GetWindowAttributes), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 9 (BadDrawable), sequence: 635, resource id: 33554452, major code: 143 (Unknown), minor code: 1
+Container window visible, stack below
+Error on DBus request(:1.19,/org/ayatana/NotificationItem/org_guido_berhoerster_code_package_update_indicator): QDBusError(org.freedesktop.DBus.Error.InvalidArgs, Nenhuma propriedade “ToolTip”)
+Error on DBus request(:1.22,/org/ayatana/NotificationItem/redshift): QDBusError(org.freedesktop.DBus.Error.InvalidArgs, Nenhuma propriedade “ToolTip”)
+Error on DBus request(:1.19,/org/ayatana/NotificationItem/org_guido_berhoerster_code_package_update_indicator): QDBusError(org.freedesktop.DBus.Error.InvalidArgs, Nenhuma propriedade “OverlayIconName”)
+Error on DBus request(:1.22,/org/ayatana/NotificationItem/redshift): QDBusError(org.freedesktop.DBus.Error.InvalidArgs, Nenhuma propriedade “OverlayIconName”)
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.Menu was not found in object /StatusNotifierItem)
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.IconThemePath was not found in object /StatusNotifierItem)
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.ToolTip was not found in object /StatusNotifierItem)
+Error on DBus request(:1.19,/org/ayatana/NotificationItem/org_guido_berhoerster_code_package_update_indicator): QDBusError(org.freedesktop.DBus.Error.InvalidArgs, Nenhuma propriedade “OverlayIconPixmap”)
+Error on DBus request(:1.19,/org/ayatana/NotificationItem/org_guido_berhoerster_code_package_update_indicator): QDBusError(org.freedesktop.DBus.Error.InvalidArgs, Nenhuma propriedade “AttentionIconPixmap”)
+Error on DBus request(:1.22,/org/ayatana/NotificationItem/redshift): QDBusError(org.freedesktop.DBus.Error.InvalidArgs, Nenhuma propriedade “OverlayIconPixmap”)
+systemd: "CanPowerOff" = "yes"
+Error on DBus request(:1.22,/org/ayatana/NotificationItem/redshift): QDBusError(org.freedesktop.DBus.Error.InvalidArgs, Nenhuma propriedade “AttentionIconPixmap”)
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.OverlayIconName was not found in object /StatusNotifierItem)
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.IconName was not found in object /StatusNotifierItem)
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.AttentionIconName was not found in object /StatusNotifierItem)
+Translator is not loaded "qlipper_pt_BR" "/usr/share/qlipper/translations"
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.IconThemePath was not found in object /StatusNotifierItem)
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.ToolTip was not found in object /StatusNotifierItem)
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.OverlayIconPixmap was not found in object /StatusNotifierItem)
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.AttentionIconPixmap was not found in object /StatusNotifierItem)
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 710, resource id: 46137366, major code: 18 (ChangeProperty), minor code: 0
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.IconThemePath was not found in object /StatusNotifierItem)
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.ToolTip was not found in object /StatusNotifierItem)
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.IconName was not found in object /StatusNotifierItem)
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.IconThemePath was not found in object /StatusNotifierItem)
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.ToolTip was not found in object /StatusNotifierItem)
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.IconName was not found in object /StatusNotifierItem)
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.IconName was not found in object /StatusNotifierItem)
+QToolButton(0x557bcd0f38c0, name="closeButton")  does not have a property named  "icon-size"
+BatteryChanged discharging: true chargeLevel: nan actionTime: QTime(Invalid)
+Starting idlenesswatcher
+"PowerButton" "" ""
+"SuspendButton" "" ""
+"HibernateButton" "" ""
+amarok-mycomputer
+default: [{'name': 'llvmpipe (LLVM 15.0.6, 256 bits)', 'driver': 'vboxvideo'}]
+extra: []
+glx_gpu: [{'name': 'llvmpipe (LLVM 15.0.6, 256 bits)', 'driver': '', 'vendor': 'ffff'}]
+all_gpu: [{'name': 'InnoTek Systemberatung GmbH VirtualBox Graphics Adapter', 'driver': 'vboxvideo', 'slot': '00:02.0', 'class': '0300', 'device': 'beef', 'vendor': '80ee'}]
+config_closeapp_main False
+config_closeapp_hdd False
+config_closeapp_usb False
+config_hide_places False
+config_autorefresh False
+config_autorefresh_time 1.5
+config_window_remember_size False
+config_window_use_darktheme False
+window w:850 h:650 | monitor w:1920 h:1080 s:1
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 885, resource id: 46137353, major code: 18 (ChangeProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 887, resource id: 46137353, major code: 18 (ChangeProperty), minor code: 0
+xsettingsd: Loaded 0 settings from /tmp/lxqt-config-appearance.BAqmjU
+xsettingsd: Created window 0x3800001 on screen 0 with timestamp 188542
+xsettingsd: Selection _XSETTINGS_S0 is owned by 0x0
+xsettingsd: Took ownership of selection _XSETTINGS_S0
+execAction "/usr/share/applications/qterminal.desktop"
+Using a variable-width font in the terminal.  This may cause performance degradation and display/alignment errors.
+Using a variable-width font in the terminal.  This may cause performance degradation and display/alignment errors.
+Using a variable-width font in the terminal.  This may cause performance degradation and display/alignment errors.
+xsettingsd: Loaded 0 settings from /tmp/lxqt-config-appearance.SGxCJe
+xsettingsd: Created window 0x3a00001 on screen 0 with timestamp 2138762
+xsettingsd: Selection _XSETTINGS_S0 is owned by 0x0
+xsettingsd: Took ownership of selection _XSETTINGS_S0
+xsettingsd: Reloading configuration
+xsettingsd: Loaded 5 settings from /tmp/lxqt-config-appearance.SGxCJe
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.IconThemePath was not found in object /StatusNotifierItem)
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.ToolTip was not found in object /StatusNotifierItem)
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.IconName was not found in object /StatusNotifierItem)
+xsettingsd: Reloading configuration
+xsettingsd: Loaded 5 settings from /tmp/lxqt-config-appearance.SGxCJe
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.IconThemePath was not found in object /StatusNotifierItem)
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.ToolTip was not found in object /StatusNotifierItem)
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.IconName was not found in object /StatusNotifierItem)
+xsettingsd: Reloading configuration
+xsettingsd: Loaded 5 settings from /tmp/lxqt-config-appearance.SGxCJe
+xsettingsd: Reloading configuration
+xsettingsd: Loaded 5 settings from /tmp/lxqt-config-appearance.SGxCJe
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.IconThemePath was not found in object /StatusNotifierItem)
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.ToolTip was not found in object /StatusNotifierItem)
+Error on DBus request(:1.38,/StatusNotifierItem): QDBusError(org.freedesktop.DBus.Error.UnknownProperty, Property org.kde.StatusNotifierItem.IconName was not found in object /StatusNotifierItem)
+pcmanfm-qt /home/jean
+add "br" ""
+Detected "VirtualBox mouse integration" on "/dev/input/event7"
+xinput driver: "libinput"
+Detected "VirtualBox USB Tablet" on "/dev/input/event5"
+xinput driver: "libinput"
+Detected "ImExPS/2 Generic Explorer Mouse" on "/dev/input/event4"
+xinput driver: "libinput"

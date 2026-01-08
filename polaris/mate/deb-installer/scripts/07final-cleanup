@@ -1,0 +1,15 @@
+#!/bin/sh -e
+
+################################################################################
+# Title:        Final cleanup
+# Description:  This script removes unwanted software and files after Debian installation.
+# Author:       manuel rosa <manuelsilvarosa@gmail.com>
+# Modified      Mauna Linux <dev@maunalinux.top>
+# Date:         17 Maio, 2025
+# License:      GPL-3.0-or-later
+################################################################################
+
+# Remove unwanted packages
+chroot /target apt purge --autoremove -y \
+    calamares \
+    calamares-settings-mauna \

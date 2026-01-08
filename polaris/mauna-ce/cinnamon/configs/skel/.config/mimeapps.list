@@ -1,0 +1,5 @@
+[Default Applications]
+application/pdf=xreader.desktop
+
+[Added Associations]
+application/pdf=xreader.desktop;

@@ -1,0 +1,33 @@
+#!/bin/sh -e
+
+################################################################################
+# Title:        Update system
+# Description:  Script to update the system after install
+# Author:       manuel rosa <manuelsilvarosa@gmail.com>
+# Modified:     Mauna Linux <dev@maunalinux.top>
+# Date:         17 Maio, 2025
+# License:      GPL-3.0-or-later
+################################################################################
+
+# This script updates the system after Debian installation.
+
+# Update the system
+if ! chroot /target apt update; then
+    echo "Failed to update package lists. Aborting." >&2
+    exit 1
+fi
+
+# Upgrade the system
+if ! chroot /target apt upgrade -y; then
+    echo "Failed to upgrade packages. Aborting." >&2
+    exit 1
+fi
+
+# Clean up unnecessary packages
+if ! chroot /target apt autoremove -y; then
+    echo "Failed to remove unnecessary packages. Continuing anyway." >&2
+fi
+
+echo "System update completed successfully."
+exit 0
+

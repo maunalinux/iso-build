@@ -1,0 +1,28 @@
+#!/bin/bash
+
+### Error checking added to "lint-trap" section.
+### Missing files no longer cause builds to fail.
+
+# Remove software
+apt remove --purge --yes vim vim-tiny nautilus hv3 mpv murrine-themes konsole malcontent termit nvidia-tesla-470-alternative systemsettings raspi-firmware firefox-esr software-properties-gtk software-properties-common python3-software-properties snapd --auto-remove
+
+# Remove /boot/firmware folder
+rm -r /boot/firmware
+
+# Lowers the footprint in RAM at the small expense of added size to the ISO.
+#update-icon-caches /usr/share/icons/*
+find /usr/share/icons -type d -exec gtk-update-icon-cache -f {} \;
+
+#add flatpak repo to software manager
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+#add-architecture i386
+#dpkg --add-architecture i386
+
+#apt install-y linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,') linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,') broadcom-sta-dkms
+#modprobe -r b44 b43 b43legacy ssb brcmsmac bcma
+#modprobe wl
+
+# Remove old mauna.list file
+rm /etc/apt/sources.list.d/mauna.list
+

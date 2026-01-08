@@ -1,0 +1,3 @@
+[commands]
+000=pkexec pcmanfm-qt
+001=pkexec pcmanqt /etc/

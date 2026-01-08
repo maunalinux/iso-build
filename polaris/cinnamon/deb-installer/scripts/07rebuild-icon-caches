@@ -1,0 +1,14 @@
+#!/bin/sh -e
+
+################################################################################
+# Title:        Rebuild icon caches script
+# Description:  This script rebuilds the icon caches after Debian installation.
+# Author:       manuel rosa <manuelsilvarosa@gmail.com>
+# Modified:     Mauna Linux <dev@maunalinux.top>
+# Date:         17 Maio, 2025
+# License:      GPL-3.0-or-later
+################################################################################
+
+# Rebuild the icon caches
+chroot /target find /usr/share/icons -type d -exec gtk-update-icon-cache -f {} \;
+

@@ -1,0 +1,4 @@
+## Mauna Linux "Polaris" main repos
+
+deb https://apt.maunalinux.top/polaris polaris main contrib non-free non-free-firmware
+

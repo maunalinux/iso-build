@@ -1,0 +1,43 @@
+#!/bin/sh -e
+
+################################################################################
+# Title:        Grub-config script
+# Description:  script to configure  thr grub defaults
+# Author:       manuel rosa <manuelsilvarosa@gmail.com>
+# Modified:     Mauna Linux <dev@maunalinux.top>
+# Date:         17 Maio, 2025
+# License:      GPL-3.0-or-later
+################################################################################
+
+# This script configures grub defaults after Debian installation.
+
+# Defines the variables
+GRUB_DEFAULT=0
+GRUB_TIMEOUT=5
+GRUB_DISTRIBUTOR="Mauna"
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+GRUB_CMDLINE_LINUX=""
+GRUB_GFXMODE=1440x900
+GRUB_THEME="/boot/grub/themes/mauna/theme.txt"
+GRUB_DISABLE_OS_PROBER=false
+
+# GRUB configuration file path
+GRUB_CONFIG_FILE="/target/etc/default/grub"
+
+# Modify the GRUB file
+sed -i "s/^GRUB_DEFAULT=.*/GRUB_DEFAULT=$GRUB_DEFAULT/" $GRUB_CONFIG_FILE
+sed -i "s/^GRUB_TIMEOUT=.*/GRUB_TIMEOUT=$GRUB_TIMEOUT/" $GRUB_CONFIG_FILE
+sed -i "s/^GRUB_DISTRIBUTOR=.*/GRUB_DISTRIBUTOR=\"$GRUB_DISTRIBUTOR\"/" $GRUB_CONFIG_FILE
+sed -i "s/^GRUB_CMDLINE_LINUX_DEFAULT=.*/GRUB_CMDLINE_LINUX_DEFAULT=\"$GRUB_CMDLINE_LINUX_DEFAULT\"/" $GRUB_CONFIG_FILE
+sed -i "s/^GRUB_CMDLINE_LINUX=.*/GRUB_CMDLINE_LINUX=\"$GRUB_CMDLINE_LINUX\"/" $GRUB_CONFIG_FILE
+sed -i "s/^#GRUB_GFXMODE=.*/GRUB_GFXMODE=$GRUB_GFXMODE/" $GRUB_CONFIG_FILE
+# Add GRUB_THEME if it doesn't exist
+if ! grep -q "^GRUB_THEME=" $GRUB_CONFIG_FILE; then
+    echo "GRUB_THEME=\"$GRUB_THEME\"" >> $GRUB_CONFIG_FILE
+else
+    sed -i "s#^GRUB_THEME=.*#GRUB_THEME=\"$GRUB_THEME\"#" $GRUB_CONFIG_FILE
+fi
+sed -i "s/^#GRUB_DISABLE_OS_PROBER=.*/GRUB_DISABLE_OS_PROBER=$GRUB_DISABLE_OS_PROBER/" $GRUB_CONFIG_FILE
+
+# Run update-grub after modifying the file
+chroot /target update-grub
